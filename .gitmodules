@@ -1,0 +1,18 @@
+[submodule "ejercicio1"]
+	path = ejercicio1
+	url = https://github.com/rubenhortas/react_examples/ejercicio1
+[submodule "ejercicio2"]
+	path = ejercicio2
+	url = https://github.com/rubenhortas/react_examples/ejercicio2
+[submodule "ejercicio3"]
+	path = ejercicio3
+	url = https://github.com/rubenhortas/react_examples/ejercicio3
+[submodule "ejercicio4"]
+	path = ejercicio4
+	url = https://github.com/rubenhortas/react_examples/ejercicio4
+[submodule "ejercicio5"]
+	path = ejercicio5
+	url = https://github.com/rubenhortas/react_examples/ejercicio5
+[submodule "ejercicio6"]
+	path = ejercicio6
+	url = https://github.com/rubenhortas/react_examples/ejercicio6
