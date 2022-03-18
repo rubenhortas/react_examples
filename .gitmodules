@@ -1,6 +1,6 @@
 [submodule "ejercicio1"]
 	path = ejercicio1
-	url = https://github.com/rubenhortas/react_examples/ejercicio1
+	url = ./ejercicio1/
 [submodule "ejercicio2"]
 	path = ejercicio2
 	url = https://github.com/rubenhortas/react_examples/ejercicio2
