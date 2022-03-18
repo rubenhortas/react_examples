@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test with bootstrap and typescript</title>
+
+    <!--STYLES -->
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
+    <!-- app styles -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="main_header">TODOs</h1>
+        <div id="alert-first-time" class="alert alert-info" role="alert">No se han encontrado datos, por lo que se ha cargado el fichero inicial de configuración.</div>
+        <div class="row newTodo-block">
+            <div class="">
+                <form action="" class="input-group container">
+                    <input id="new-todo-input" class="form-control" type="text" placeholder="New todo...">
+
+                    <span class="input-group-btn">
+                        <button type="submit" id="save-todo-bt" class="btn bt_ bt_orange">Save todo<span class="glyphicon glyphicon-ok"></span></button>
+                    </span>
+                </form>
+            </div>
+        </div>
+    </header>
+    <div class="todo-bloc container">
+        <div id="todo-list-container">
+            <ul id="todo-list" class="list_"></ul>
+        </div>
+        <div id="react-list"></div>
+    </div>
+
+    <!-- VENDOR SCRIPTS -->
+    <!-- jquery -->
+    <script type="application/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js" ></script>
+    <!-- bootstrap -->
+    <script type="text/javascript" src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- storejs -->
+    <script type="text/javascript" src="./vendor/storejs/store.min.js"></script>
+
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.js"></script>
+
+    <!-- APP -->
+    <script src="./js/app.js" type="application/javascript"></script>
+</body>
+</html>

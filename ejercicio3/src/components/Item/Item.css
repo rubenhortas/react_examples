@@ -1,0 +1,6 @@
+li.item  {
+    list-style: none;
+    border: 1px solid #e60606;
+    padding: 4px 10px;
+    margin: 10px 0;
+}

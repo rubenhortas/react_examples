@@ -1,0 +1,84 @@
+.bt_grey {
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  border-radius: 0.5em;
+  border-color: transparent;
+  cursor: pointer;
+  background-color: #c8c8c8; }
+  .bt_grey:hover {
+    background-color: #e2e2e2;
+    outline: none; }
+  .bt_grey:focus {
+    background-color: #c8c8c8;
+    outline: none; }
+
+.bt_orange {
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  border-radius: 0.5em;
+  border-color: transparent;
+  cursor: pointer;
+  background-color: #ffc64d; }
+  .bt_orange:hover {
+    background-color: #ffd680;
+    outline: none; }
+  .bt_orange:focus {
+    background-color: #ffc64d;
+    outline: none; }
+
+body {
+  color: #666;
+  background-color: #f6f8fa; }
+
+header {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.4); }
+  header h1 {
+    text-align: center; }
+  header .alert {
+    margin-bottom: 0; }
+  header .newTodo-block {
+    padding: 15px;
+    color: #fff;
+    background-color: #223078; }
+    header .newTodo-block label {
+      font-weight: bold;
+      padding-right: 15px; }
+    header .newTodo-block input[type="text"] {
+      margin-right: 7.5px;
+      padding: 0.4em 0.8em;
+      border: none;
+      color: #223078;
+      -webkit-border-radius: 0.5em;
+      -moz-border-radius: 0.5em;
+      border-radius: 0.5em; }
+    header .newTodo-block .bt_ {
+      color: #223078; }
+      header .newTodo-block .bt_ .glyphicon {
+        padding-left: 7.5px; }
+
+.list_ {
+  padding-top: 133px;
+  list-style: none;
+  padding-left: 0;
+  margin: 0; }
+  .list_ .list_item {
+    border-bottom: 1px dotted #b0b9e9;
+    overflow: auto; }
+    .list_ .list_item:last-child {
+      border-bottom: none; }
+    .list_ .list_item .list_item-todo {
+      padding: 15px;
+      float: left; }
+    .list_ .list_item .list_item-removeBt {
+      margin: 15px;
+      float: right;
+      padding: 0.4em 0.8em; }
+
+/*# sourceMappingURL=maps/styles.css.map */
