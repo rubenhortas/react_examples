@@ -1,4 +1,4 @@
-# react_examples
+# react examples
 Small examples of React code
 
 ## Support
